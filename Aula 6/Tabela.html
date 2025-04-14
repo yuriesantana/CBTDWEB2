@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        th,
+        td {
+            border-style: groove;
+        }
+
+        thead {color: rgb(0, 138, 0);}
+    </style>
 </head>
+
 <body>
     <table>
-        <tr>
-            <th></th>
-            <th>Segunda-Feira</th>
-            <th>Terça-Feira</th>
-            <th>Quarta-Feira</th>
-            <th>Quinta-Feira</th>
-            <th>Sexta-Feira</th>
-        </tr>
-        <tr>
-            <td>19:00 - 19:45</td>
-            <td>Desenvolvimento WEB</td>
-            <td>Programação Estruturada</td>
-            <td>Fundamentos de Matemática</td>
-            <td>História C. e Tec.</td>
-            <td>Algoritmos e Programação</td>
-        </tr>
-        <tr>
-            <td>19-45 - 20:30</td>
-            <td>Desenvolvimento WEB</td>
-            <td>Programação Estruturada</td>
-            <td>Fundamentos de Matemática</td>
-            <td>História C. e Tec.</td>
-            <td>Algoritmos e Programação</td>
-        </tr>
-        <tr>
-            <td>20:30 - 21:15</td>
-            <td>Desenvolvimento WEB</td>
-            <td>Programação Estruturada</td>
-            <td>Fundamentos de Matemática</td>
-            <td>Inglês Técnico</td>
-            <td>Inglês Técnico</td>
-        </tr>
-        <tr>
-            <td>21:30 - 22:15</td>
-            <td>Desenvolvimento WEB</td>
-            <td>Programação Estruturada</td>
-            <td>Arquitetura de Computadores</td>
-            <td>Comunicação e Expressão</td>
-            <td>Algoritmos e Programação</td>
-        </tr>
-        <tr>
-            <td>22:15 - 23:00</td>
-            <td></td>
-            <td>Fundamentos de Matemática</td>
-            <td>Arquitetura de Computadores</td>
-            <td>Comunicação e Expressão</td>
-            <td>Algoritmos e Programação</td>
-        </tr>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Segunda-Feira</th>
+                <th>Terça-Feira</th>
+                <th>Quarta-Feira</th>
+                <th>Quinta-Feira</th>
+                <th>Sexta-Feira</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>19:00 - 19:45</td>
+                <td>Desenvolvimento WEB</td>
+                <td>Programação Estruturada</td>
+                <td>Fundamentos de Matemática</td>
+                <td>História C. e Tec.</td>
+                <td>Algoritmos e Programação</td>
+            </tr>
+            <tr>
+                <td>19-45 - 20:30</td>
+                <td>Desenvolvimento WEB</td>
+                <td>Programação Estruturada</td>
+                <td>Fundamentos de Matemática</td>
+                <td>História C. e Tec.</td>
+                <td>Algoritmos e Programação</td>
+            </tr>
+            <tr>
+                <td>20:30 - 21:15</td>
+                <td>Desenvolvimento WEB</td>
+                <td>Programação Estruturada</td>
+                <td>Fundamentos de Matemática</td>
+                <td>Inglês Técnico</td>
+                <td>Inglês Técnico</td>
+            </tr>
+            <tr>
+                <td>21:30 - 22:15</td>
+                <td>Desenvolvimento WEB</td>
+                <td>Programação Estruturada</td>
+                <td>Arquitetura de Computadores</td>
+                <td>Comunicação e Expressão</td>
+                <td>Algoritmos e Programação</td>
+            </tr>
+            <tr>
+                <td>22:15 - 23:00</td>
+                <td></td>
+                <td>Fundamentos de Matemática</td>
+                <td>Arquitetura de Computadores</td>
+                <td>Comunicação e Expressão</td>
+                <td>Algoritmos e Programação</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
+
 </html>
